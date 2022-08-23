@@ -1,4 +1,4 @@
-public class MyFirstClass
+public class Java1_
 {
     //after you create project and class
     //you have to create the main method
