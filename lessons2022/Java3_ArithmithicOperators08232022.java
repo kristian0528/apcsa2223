@@ -1,4 +1,6 @@
-public class Java3_ArithmithicOperators
+package lessons2022;
+
+public class Java3_ArithmithicOperators08232022
 {
     public static void main(String[] args) {
 

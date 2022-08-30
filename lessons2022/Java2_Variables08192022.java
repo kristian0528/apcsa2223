@@ -1,4 +1,6 @@
-public class Java2Variables {
+package lessons2022;
+
+public class Java2_Variables08192022 {
     public static void main(String[] args) {
         //Decleration of variables
         string name = "Kristian";     //Text or String
@@ -9,7 +11,7 @@ public class Java2Variables {
         byte smallNumber = 3;         //Stores whole numbers from -128 to 127
         short shortNumber = 4;        //Whole numbers from -32,768 to 32,767
         long longNumber = 123456789;  //Whole numbers from -9,223,372,836,854,775,808 to 9,223,372,836,854,775,808
-        double doubleNumber = 12.34   //Fractional numbers, storing 15 decimal digits
+        double doubleNumber = 12.34;  //Fractional numbers, storing 15 decimal digits
         //Rules for Variables
         /*
         you can't give a reserved name for a variable like class etc...

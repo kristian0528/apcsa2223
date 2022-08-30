@@ -1,4 +1,6 @@
-public class Java1_
+package lessons2022;
+
+public class Java1_MyFirstClass08182022
 {
     //after you create project and class
     //you have to create the main method
