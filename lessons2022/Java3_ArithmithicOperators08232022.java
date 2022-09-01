@@ -59,11 +59,11 @@ public class Java3_ArithmithicOperators08232022
 
         //Shorthand Operators
         int number3 = 5;
-        number 3 = 5+5; //10
+        number3 = 5+5; //10
         number3+=5;//number3 = 5+5
         System.out.println(number3);
         int numberA = 33;
-        numberA+=22;
+        numberA +=22;
         System.out.println(numberA);
         numberA*=3;
         System.out.println(numberA);

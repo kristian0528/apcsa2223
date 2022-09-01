@@ -3,7 +3,7 @@ package lessons2022;
 public class Java2_Variables08192022 {
     public static void main(String[] args) {
         //Decleration of variables
-        string name = "Kristian";     //Text or String
+        String name = "Kristian";     //Text or String
         int mynum = 5;                //Integer(Whole number)
         float myFloatNum = 5.99f;     //Floating point number(decimal)
         char myLetter = 'G';          //Character, you can use numbers from ICII table to define
@@ -26,9 +26,9 @@ public class Java2_Variables08192022 {
          */
 
         int myNum = 9;
-        float myFloatNum = 8.99f;
-        char myLetter = 'k';
-        boolean myBool = false;
-        string myText = "Hello World";
+        float FloatNum = 8.99f;
+        char Letter = 'k';
+        boolean Bool = false;
+        String Text = "Hello World";
     }
 }

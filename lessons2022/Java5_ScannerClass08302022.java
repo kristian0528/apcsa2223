@@ -21,11 +21,11 @@ public class Java5_ScannerClass08302022 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("What is your name");
-        string name = scanner.next(); //this only takes the first word/part of the input
-        System.out.println("your name is"+name);
-        System.out.println("what is your name ");
+        String name = scanner.next(); //this only takes the first word/part of the input
+        System.out.println("your name is "+name);
+        System.out.println("what is your last name ");
         String name2 = scanner.nextLine(); //this takes the entire line
-        System.out.println("your name is"+name2);
+        System.out.println("your name is "+name2);
 
         //System.out.println("what about the age?");
         //int age = scanner.nextInt();
@@ -40,9 +40,9 @@ public class Java5_ScannerClass08302022 {
         name and last name in one line, age, student id number, school name
          */
 
-        Scanner scanner = new Scanner(System.in);
+        //Scanner scanner = new Scanner(System.in);
         System.out.println("What is your full name");
-        string name3 = scanner.nextLine();
+        String name3 = scanner.nextLine();
         System.out.println("What is your age");
         int age = scanner.nextInt();
         System.out.println("Your school name?");
