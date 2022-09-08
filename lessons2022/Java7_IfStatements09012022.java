@@ -53,29 +53,28 @@ public class Java7_IfStatements09012022 {
         if (hour > 12 && hour < 15) {
             System.out.println("Good Afternoon");
         }
-        if(hour>15){
+        if (hour > 15) {
             System.out.println("Good Evening");
         }
 
         // Nested if statements
 
-        boolean isWeekday ;
-        boolean weatherIsSunny ;
+        boolean isWeekday;
+        boolean weatherIsSunny;
 
-        if(isWeekday==true){
-            if(weatherIsSunny==true){
-                System.out.println("picnic");
-            }
-        }
-        else{
-            System.out.println("Tv");
-        }
-        else{
-            System.out.println("School");
-        }
-
-        if(3<6){
-            System.out.println("3 is smaller than 6");
-        }
-        else if(1<5)
+//        if (isWeekday == true) {
+//            if (weatherIsSunny == true) {
+//                System.out.println("picnic");
+//            }
+//        } else {
+//            System.out.println("Tv");
+//        }
+//        if (isWeekday == false) {
+//            System.out.println("School");
+//
+//            if (3 < 6) {
+//                System.out.println("3 is smaller than 6");
+//            } else if (1 < 5) ;
+//        }
     }
+}
