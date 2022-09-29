@@ -1,6 +1,6 @@
 package lessons2022;
 
-public class Java11_Loops09222022 {
+public class Java11_ForLoops09222022 {
     public static void main(String[] args) {
         // Loop
         /* Loops allow you to execute commands as many times as you need
@@ -61,5 +61,6 @@ public class Java11_Loops09222022 {
         for(int i = 0 ; true ; i++){
             System.out.println("yellow world"+" iteration number "+i);
         }
+
     }
 }
