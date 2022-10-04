@@ -66,5 +66,20 @@ public class Java14_StringClass09292022
         System.out.println(str8.indexOf("e"));
 
 
+        //Equals checks if two string are the same or not, returns boolean
+        System.out.println("ali".equals("ali"));
+        System.out.println("ali".equals("ali2"));
+        System.out.println("ali".equals("Ali"));
+
+        //contains check if strings contains the string
+        System.out.println("Alexander".contains("Alex"));
+
+        //Starts with if checks if the string starts with a string
+        System.out.println("Alex".startsWith("A"));
+
+        //Ends with checks if the string ends with a string
+        System.out.println("Kristian".endsWith("n"));
+
+        //System.out.println("Kristian".);   how to display all string methods
     }
 }
