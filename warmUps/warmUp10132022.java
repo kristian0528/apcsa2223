@@ -15,9 +15,9 @@ public class warmUp10132022 {
             System.out.println("Welcome to my calculator");
             System.out.println("Enter first number");
             Scanner scanner = new Scanner(System.in);
-            int firstNum = Scanner.nextInt();
-            System.out.println("Enter secod number");
-            int secondNum = Scanner.nextInt();
+            int firstNum = scanner.nextInt();
+            System.out.println("Enter second number");
+            int secondNum = scanner.nextInt();
             System.out.println("enter the operator + - * / %");
             Scanner scanner1 = new Scanner(System.in);
             String operator = scanner1.nextLine();

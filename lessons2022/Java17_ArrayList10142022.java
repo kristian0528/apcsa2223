@@ -72,5 +72,20 @@ public class Java17_ArrayList10142022 {
         System.out.println(arr2.isEmpty());
         arr2.clear();
         System.out.println(arr2.isEmpty());
+
+        //Add all method
+        ArrayList<String> listA1 = new ArrayList<>();
+        listA1.add("first and only value");
+        String[] arrToA1 = {"This contains","several", "values"};
+        listA1.addAll(Arrays.asList(arrToA1));
+        listA1.add("after adding a list of items");
+        System.out.println(listA1);
+
+        // Remove all method
+        ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9));
+        numbers.remove(1);
+        numbers.removeAll(Arrays.asList(1));
+        System.out.println("numbers");
+
     }
 }
